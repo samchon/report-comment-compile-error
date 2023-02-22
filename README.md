@@ -45,6 +45,7 @@ export interface IBbsArticle {
 }
 export namespace IBbsArticle {
     export namespace Comment {
+        // IMPORT STATEMENT OCCURS THE BUG
         export import IStore = IBbsComment.IStore;
     }
 }
